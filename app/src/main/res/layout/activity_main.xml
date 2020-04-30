@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorP">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="350dp"
+        android:layout_height="530dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/NewRomeIV"
+                android:layout_width="329dp"
+                android:layout_height="233dp"
+                android:src="@drawable/angel" />
+
+            <TextView
+                android:id="@+id/NewRome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Old Rome"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/SaintAngel"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="@string/_1823" />
+
+
+
+            <TextView
+                android:id="@+id/NightDescr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rome (Latin and Italian Roma [ˈroːma] (About this soundlisten)) is the capital city and a special comune of Italy (named Comune di Roma Capitale) as well as the capital of the Lazio region. The city has been a major human settlement for over two millennia. With 2,844,395 residents in 1,285 km2 (496.1 sq mi),[1] it is also the country's most populated comune. It is the third most populous city in the European Union by population within city limits. It is the centre of the Metropolitan City of Rome, which has a population of 4,355,725 residents, thus making it the second-most populous metropolitan city in Italy.[2] Its metropolitan area is the third-most populous within Italy.[3] Rome is located in the central-western portion of the Italian Peninsula, within Lazio (Latium), along the shores of the Tiber. Vatican City (the smallest country in the world)[4] is an independent country inside the city boundaries of Rome, the only existing example of a country within a city; for this reason Rome has sometimes been defined as the capital of two states.[5][6]
+Rome (Latin and Italian Roma [ˈroːma] (About this soundlisten)) is the capital city and a special comune of Italy (named Comune di Roma Capitale) as well as the capital of the Lazio region. The city has been a major human settlement for over two millennia. With 2,844,395 residents in 1,285 km2 (496.1 sq mi),[1] it is also the country's most populated comune. It is the third most populous city in the European Union by population within city limits. It is the centre of the Metropolitan City of Rome, which has a population of 4,355,725 residents, thus making it the second-most populous metropolitan city in Italy.[2] Its metropolitan area is the third-most populous within Italy.[3] Rome is located in the central-western portion of the Italian Peninsula, within Lazio (Latium), along the shores of the Tiber. Vatican City (the smallest country in the world)[4] is an independent country inside the city boundaries of Rome, the only existing example of a country within a city; for this reason Rome has sometimes been defined as the capital of two states.[5][6]
+Rome's history spans 28 centuries. "/>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="208dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="69dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="69dp"
+                android:layout_marginBottom="64dp"
+                android:text="@string/google_culture_and_art"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+                app:layout_constraintEnd_toStartOf="@+id/Search"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/Menu"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
